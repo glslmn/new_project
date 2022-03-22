@@ -1,0 +1,59 @@
+# Gitignore template of the data science horizontal
+
+## <Coverage files>
+.coverage
+coverage-*.xml
+## </Coverage files>
+
+## <Crashlytics plugin (for Android Studio and IntelliJ)>
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+crashlytics.properties
+fabric.properties
+## </Crashlytics plugin (for Android Studio and IntelliJ)>
+
+## <Cursive Clojure plugin>
+.idea/replstate.xml
+## </Cursive Clojure plugin>
+
+## <IDEs>
+*.code-workspace
+*.egg-info/
+*.log
+.DS_Store
+.Trash*/
+.cache/
+.idea/
+.idea/**
+.idea_modules/
+.sonar/
+.tox/
+.vscode/
+/.Trash-1000/
+/.cache/
+out/
+tags
+wheelhouse/
+## </IDEs>
+
+## <JIRA plugin>
+atlassian-ide-plugin.xml
+## </JIRA plugin>
+
+## <Miscellaneous>
+**/.eggs/
+**/build/
+**/dist/
+secrets.yml
+## </Miscellaneous>
+
+## <Python>
+**/.env/
+**/.hypothesis
+**/.pytest_cache/
+**/.venv
+**/__pycache__/
+**/venv
+*.python-version
+.ipynb_checkpoints/
+## </Python>
